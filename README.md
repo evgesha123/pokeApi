@@ -1,2 +1,2 @@
 # pokeApi
-Some information about pokemon
+Some information about pokemon's
