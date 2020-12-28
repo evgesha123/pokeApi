@@ -1,0 +1,34 @@
+.App {
+ text-align: center;
+}
+
+div.App-layout {
+ background-color: #282c34;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ font-size: calc(10px + 2vmin);
+ color: white;
+ padding-top: 50px;
+}
+
+.App-logo {
+  height: 70vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

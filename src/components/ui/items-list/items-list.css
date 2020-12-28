@@ -1,0 +1,24 @@
+.items-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 40%;
+    height: 70%;
+    overflow-y: scroll;
+    background: white;
+    color: black;
+    border: 2px solid #83afad;
+    border-radius: 4px;
+}
+
+.items-list-left-header{
+    display: flex;
+    padding: 0 50px;
+}
+
+.item{
+    display: flex;
+    padding: 0 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

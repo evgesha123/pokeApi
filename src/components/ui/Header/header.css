@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0 50px;
+    background: burlywood;
+}
+
+.header-img {
+    width: 30vmin;
+    height: inherit;
+}
+
+.header-img-pikachu {
+    margin-bottom: -48px;
+    margin-left: -20px;
+}
+
+.header-items-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.header-items-container :nth-child(n) {
+    padding: 0 50px;
+}
