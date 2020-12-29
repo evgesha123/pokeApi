@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import ItemsList from "../ui/ItemsList/ItemsList";
-import ItemDetails from "../ui/ItemDetails";
+import ItemsList from "../../ui/ItemsList/ItemsList";
+import ItemDetails from "../../ui/ItemDetails";
 import './PagePocemons.css';
-import {_BASE_URL_} from "../../const/system";
+import {_BASE_URL_} from "../../../const/system";
 
 function PagePokemons(){
 

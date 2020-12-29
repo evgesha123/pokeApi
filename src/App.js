@@ -2,7 +2,7 @@ import './App.css';
 import Header from "./components/ui/Header";
 import Pokeball from "./images/pokeball.svg";
 import {Route, Switch} from "react-router";
-import PagePokemons from "./components/PagePokemons/PagePokemons";
+import PagePokemons from "./components/page/PagePokemons/PagePokemons";
 
 function App() {
   return (
