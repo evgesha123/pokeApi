@@ -1,9 +1,6 @@
 .items-container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    width: 40%;
-    height: calc(100vh - 240px);
+    width: 100%;
+    height: calc(100vh - 270px);
     overflow-y: scroll;
     background: white;
     color: black;
@@ -11,14 +8,29 @@
     border-radius: 4px;
 }
 
-.items-list-left-header{
-    display: flex;
-    padding: 0 50px;
+.items-list-block{
+    display: block;
+    float: left;
+    width: 40%;
 }
 
-.item{
+.items-list-block-title{
+    color: #83afad;
+    margin-bottom: 30px;
+}
+
+.inactive-item{
     display: flex;
     padding: 0 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.active-item{
+    display: flex;
+    padding: 0 50px;
+    background: burlywood;
+    border-radius: 4px;
     text-transform: capitalize;
     cursor: pointer;
 }
