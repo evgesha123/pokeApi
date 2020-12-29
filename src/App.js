@@ -1,9 +1,8 @@
 import './App.css';
 import Header from "./components/ui/Header";
-import ItemsList from "./components/ui/items-list/items-list";
-import ItemDetails from "./components/ui/item-details/item-details";
 import Pokeball from "./images/pokeball.svg";
 import {Route, Switch} from "react-router";
+import PagePokemons from "./components/PagePokemons/PagePokemons";
 
 function App() {
   return (
@@ -16,10 +15,7 @@ function App() {
             <img className='App-logo' src={Pokeball} alt='Pokeball' />
           </Route>
           <Route path="/pokemons-list">
-            <div className='pokemons-list-container'>
-              <ItemsList/>
-              <ItemDetails/>
-            </div>
+            <PagePokemons />
           </Route>
           <Route path="/items">
             <div>Items</div>

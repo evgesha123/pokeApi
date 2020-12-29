@@ -1,16 +1,17 @@
 .App {
- text-align: center;
+  text-align: center;
 }
 
 div.App-layout {
- background-color: #282c34;
- height: calc(100vh - 150px);
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- font-size: calc(10px + 2vmin);
- color: white;
- padding-top: 50px;
+  background-color: #282c34;
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -31,10 +32,4 @@ div.App-layout {
   to {
     transform: rotate(360deg);
   }
-}
-
-.pokemons-list-container{
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 0 50px;
 }
