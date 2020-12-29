@@ -5,8 +5,6 @@ import './PagePocemons.css';
 import {_BASE_URL_} from "../../const/system";
 
 function PagePokemons(){
-  // const initialItemValue = window.localStorage.getItem('item') || null;
-  // window.localStorage.setItem("item", JSON.stringify(item)); // set to localStorage
 
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -15,9 +13,6 @@ function PagePokemons(){
   const [currentItem, getActiveItemData] = useState(null);
 
   console.log('data', data);
-  // console.log('isLoaded', isLoaded);
-  // console.log('activeIndex', activeIndex);
-  // console.log('error', error);
   console.log('currentItem', currentItem);
 
   const handleItemClick = (index, item) => {
@@ -44,9 +39,6 @@ function PagePokemons(){
         }
       )
   }, [])
-
-
-
 
   return (
     <div className='pokemons-list-container'>

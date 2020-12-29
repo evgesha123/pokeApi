@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bac2971-7a80-40cb-98ac-8af2c048ba32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/item-details/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/items-list/items-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/items-list/items-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/ItemDetails/ItemDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ItemDetails/ItemDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/ItemDetails/ItemDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ItemDetails/ItemDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/ItemDetails/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ItemDetails/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

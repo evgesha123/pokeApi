@@ -1,0 +1,16 @@
+.item-details-container{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: calc(100vh - 240px);
+    width: 60%;
+}
+
+.item-details-header{
+    color: #83afad;
+    margin-bottom: 30px;
+}
+
+.item-details-data{
+    /*color: #b30d54;*/
+}
