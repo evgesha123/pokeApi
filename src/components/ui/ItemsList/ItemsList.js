@@ -1,4 +1,4 @@
-import './items-list.css';
+import './ItemsList.css';
 import React, { useState, useEffect } from 'react';
 import Error from "../Error/error";
 

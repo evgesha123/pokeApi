@@ -1,4 +1,4 @@
-import './item-details.css';
+import './ItemDetails.css';
 
 function ItemDetails(){
   return (
