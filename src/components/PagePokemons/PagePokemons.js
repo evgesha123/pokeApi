@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemsList from "../ui/ItemsList/ItemsList";
 import ItemDetails from "../ui/ItemDetails";
 import './PagePocemons.css';
+import {_BASE_URL_} from "../../const/system";
 
 function PagePokemons(){
   // const initialItemValue = window.localStorage.getItem('item') || null;
@@ -28,7 +29,7 @@ function PagePokemons(){
   // этот useEffect будет запущен один раз
   // аналогично componentDidMount()
   useEffect(() => {
-    fetch(`https://pokeapi.co/api/v2/type/${2}/`)
+    fetch(`${_BASE_URL_}type/${2}/`)
       .then(res => res.json())
       .then(
         (result) => {
