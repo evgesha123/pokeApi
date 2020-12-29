@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./components/ui/Header";
 import ItemsList from "./components/ui/items-list/items-list";
+import ItemDetails from "./components/ui/item-details/item-details";
 import Pokeball from "./images/pokeball.svg";
 import {Route, Switch} from "react-router";
 
@@ -15,7 +16,10 @@ function App() {
             <img className='App-logo' src={Pokeball} alt='Pokeball' />
           </Route>
           <Route path="/pokemons-list">
-            <ItemsList/>
+            <div className='pokemons-list-container'>
+              <ItemsList/>
+              <ItemDetails/>
+            </div>
           </Route>
           <Route path="/items">
             <div>Items</div>

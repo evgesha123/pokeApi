@@ -4,7 +4,7 @@
 
 div.App-layout {
  background-color: #282c34;
- height: 100vh;
+ height: calc(100vh - 150px);
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
@@ -31,4 +31,10 @@ div.App-layout {
   to {
     transform: rotate(360deg);
   }
+}
+
+.pokemons-list-container{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 50px;
 }
